@@ -1,0 +1,25 @@
+2014-09-28 16:38:34.017511
+Command:
+	  command: create_new_action: action
+	  phrases: create-new action
+	utterance: create-new action
+Feedback:
+	Created action 1. Finding objects.
+----------------------------------------------------------------------
+Description:
+	thing 1:the left-most object
+	thing 0:the right-most object
+Feedback:
+	Found 2 objecs.
+Command:
+	  command: clarify: side
+	  phrases: 
+	utterance: pick-up the blue thing
+Feedback:
+	Please clarify side
+Command:
+	  command: pick_up: thing 0 right_hand
+	  phrases: pick-up thing 0 right-hand
+	utterance: pick-up the blue thing with your right-hand
+Feedback:
+	pick up the right-most object with right hand

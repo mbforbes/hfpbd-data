@@ -1,0 +1,70 @@
+2014-09-28 16:47:40.323553
+Command:
+	  command: create_new_action: action
+	  phrases: create-new action
+	utterance: create-new action
+----------------------------------------------------------------------
+Feedback:
+	Created action 1. Finding objects.
+Description:
+	thing 1:the left-most object
+	thing 0:the right-most object
+Feedback:
+	Found 2 objecs.
+Command:
+	  command: clarify: side
+	  phrases: 
+	utterance: pick-up blue thing
+Feedback:
+	Please clarify side
+Command:
+	  command: pick_up: thing 0 right_hand
+	  phrases: pick-up thing 0 right-hand
+	utterance: pick-up blue thing right-hand
+Feedback:
+	pick up the right-most object with right hand
+Command:
+	  command: place: on_top_of thing 1 right_hand
+	  phrases: put on-top-of thing 1 right-hand
+	utterance: put it on-top-of the red thing
+Feedback:
+	put on top of the left-most object with right hand
+Command:
+	  command: move_abs: right_hand up
+	  phrases: move right-hand up
+	utterance: up
+Feedback:
+	Move right hand up.
+Command:
+	  command: move_abs_pos: right_hand to_side
+	  phrases: move right-hand to-the-side
+	utterance: to-the-side
+Feedback:
+	Move right hand to the side.
+Command:
+	  command: execute: 
+	  phrases: execute
+	utterance: execute
+Feedback:
+	Executing action 1. Finding objects.
+Description:
+	thing 1:the left-most object
+	thing 0:the right-most object
+Feedback:
+	Found 2 objecs.
+Feedback:
+	pick up the right-most object with right hand
+Feedback:
+	put on top of the left-most object with right hand
+Feedback:
+	Move right hand up.
+Feedback:
+	Move right hand to the side.
+Feedback:
+	Completed action 1.
+Command:
+	  command: clarify: 
+	  phrases: 
+	utterance: foo
+Feedback:
+	Please rephrase command.
