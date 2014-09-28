@@ -1,0 +1,239 @@
+2014-09-27 22:28:09.561984
+Command:
+	  command: create_new_action: action
+	  phrases: create-new action
+	utterance: create-new action
+Feedback:
+	Created action 1. Finding objects.
+Description:
+	thing 1:the right-most object
+	thing 0:the left-most object
+Feedback:
+	Found 2 objecs.
+Command:
+	  command: pick_up: thing 1 right_hand
+	  phrases: pick-up thing 1 right-hand
+	utterance: pick-up the red cup with your right-hand
+Feedback:
+	pick up the right-most object with right hand
+Command:
+	  command: move_rel: right_hand above thing 0
+	  phrases: move right-hand above thing 0
+	utterance: move above the green cup
+Feedback:
+	move right hand above the left-most object
+Command:
+	  command: open: right_hand
+	  phrases: open right-hand
+	utterance: open
+Feedback:
+	Open right hand.
+Command:
+	  command: move_abs_pos: right_hand to_side
+	  phrases: move right-hand to-the-side
+	utterance: to-the-side
+Feedback:
+	Move right hand to the side.
+Command:
+	  command: execute: 
+	  phrases: execute
+	utterance: execute
+Feedback:
+	Executing action 1.
+Description:
+	thing 1:the right-most object
+	thing 0:the left-most object
+Feedback:
+	Found 2 objecs.
+Feedback:
+	pick up the right-most object with right hand
+Feedback:
+	Failed to pick up the right-most object with right hand
+Feedback:
+	Problem executing action 1.
+Command:
+	  command: execute: 
+	  phrases: execute
+	utterance: execute
+Feedback:
+	Executing action 1.
+Description:
+	thing 1:the left-most object
+	thing 0:the right-most object
+Feedback:
+	Found 2 objecs.
+Feedback:
+	pick up the right-most object with right hand
+Feedback:
+	move right hand above the left-most object
+Feedback:
+	Open right hand.
+Feedback:
+	Move right hand to the side.
+Feedback:
+	Completed action 1.
+Command:
+	  command: execute: 
+	  phrases: execute
+	utterance: execute
+Feedback:
+	Executing action 1.
+Description:
+	thing 1:the right-most object
+	thing 0:the left-most object
+Feedback:
+	Found 2 objecs.
+Feedback:
+	pick up the right-most object with right hand
+Feedback:
+	Failed to pick up the right-most object with right hand
+Feedback:
+	Problem executing action 1.
+Command:
+	  command: execute: 
+	  phrases: execute
+	utterance: execute
+Feedback:
+	Executing action 1.
+Description:
+	thing 1:the right-most object
+	thing 0:the left-most object
+Feedback:
+	Found 2 objecs.
+Feedback:
+	pick up the right-most object with right hand
+Feedback:
+	move right hand above the left-most object
+Feedback:
+	Open right hand.
+Feedback:
+	Move right hand to the side.
+Feedback:
+	Completed action 1.
+Command:
+	  command: execute: 
+	  phrases: execute
+	utterance: execute
+Feedback:
+	Executing action 1.
+Description:
+	thing 1:the right-most object
+	thing 0:the left-most object
+Feedback:
+	Found 2 objecs.
+Feedback:
+	pick up the right-most object with right hand
+Feedback:
+	Failed to pick up the right-most object with right hand
+Feedback:
+	Problem executing action 1.
+Command:
+	  command: execute: 
+	  phrases: execute
+	utterance: execute
+Feedback:
+	Executing action 1.
+Description:
+	thing 1:the right-most object
+	thing 0:the left-most object
+Feedback:
+	Found 2 objecs.
+Feedback:
+	pick up the right-most object with right hand
+Feedback:
+	move right hand above the left-most object
+Feedback:
+	Open right hand.
+Feedback:
+	Move right hand to the side.
+Feedback:
+	Completed action 1.
+Command:
+	  command: create_new_action: action
+	  phrases: create-new action
+	utterance: create-new action
+Feedback:
+	Created action 2. Finding objects.
+Description:
+	thing 1:the left-most object
+	thing 0:the right-most object
+Feedback:
+	Found 2 objecs.
+Command:
+	  command: pick_up: thing 0 right_hand
+	  phrases: pick-up thing 0 right-hand
+	utterance: pick-up the blue thing
+Feedback:
+	pick up the right-most object with right hand
+Feedback:
+	Failed to pick up the right-most object with right hand
+Command:
+	  command: pick_up: thing 0 right_hand
+	  phrases: pick-up thing 0 right-hand
+	utterance: pick-up the blue thing
+Feedback:
+	pick up the right-most object with right hand
+Command:
+	  command: place: on_top_of thing 1 right_hand
+	  phrases: place on-top-of thing 1 right-hand
+	utterance: place on-top-of the left-most thing
+Feedback:
+	place on top of the left-most object with right hand
+Command:
+	  command: move_abs: right_hand up
+	  phrases: move right-hand up
+	utterance: up
+Feedback:
+	Move right hand up.
+Command:
+	  command: move_abs: right_hand up
+	  phrases: move right-hand up
+	utterance: up
+Feedback:
+	Move right hand up.
+Command:
+	  command: move_abs_pos: right_hand to_side
+	  phrases: move right-hand to-the-side
+	utterance: to-the-side
+Feedback:
+	Move right hand to the side.
+Command:
+	  command: execute: 
+	  phrases: execute
+	utterance: execute
+Feedback:
+	Executing action 2.
+Description:
+	thing 1:the left-most object
+	thing 0:the right-most object
+Feedback:
+	Found 2 objecs.
+Feedback:
+	pick up the left-most object with right hand
+Feedback:
+	Failed to pick up the left-most object with right hand
+Feedback:
+	Problem executing action 2.
+Command:
+	  command: execute: 
+	  phrases: execute
+	utterance: execute
+Feedback:
+	Executing action 2.
+Description:
+	thing 1:the right-most object
+	thing 0:the left-most object
+Feedback:
+	Found 2 objecs.
+Feedback:
+	pick up the left-most object with right hand
+Feedback:
+	place on top of the right-most object with right hand
+Feedback:
+	Move right hand up.
+Feedback:
+	Move right hand up.
+Feedback:
+	Move right hand to the side.
+Feedback:
+	Completed action 2.

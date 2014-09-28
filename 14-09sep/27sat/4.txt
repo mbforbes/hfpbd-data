@@ -1,0 +1,126 @@
+2014-09-27 22:20:13.269592
+Command:
+	  command: create_new_action: action
+	  phrases: create-new action
+	utterance: create-new action
+Feedback:
+	Created action 1. Finding objects.
+Description:
+	thing 1:the left-most object
+	thing 0:the right-most object
+Feedback:
+	Found 2 objecs.
+Command:
+	  command: pick_up: thing 1 right_hand
+	  phrases: pick-up thing 1 right-hand
+	utterance: pick-up the red cup with your right-hand
+Feedback:
+	pick up the left-most object with right hand
+Command:
+	  command: move_rel: right_hand above thing 0
+	  phrases: move right-hand above thing 0
+	utterance: move above the green cup
+Feedback:
+	move right hand above the right-most object
+Command:
+	  command: open: right_hand
+	  phrases: open right-hand
+	utterance: open
+Feedback:
+	Open right hand.
+Command:
+	  command: clarify: 
+	  phrases: 
+	utterance: side
+Feedback:
+	Please rephrase command.
+Command:
+	  command: move_rel: right_hand to_right_of thing 0
+	  phrases: move right-hand to-the-right-of thing 0
+	utterance: move right-hand to-the-right-of the green thing
+Feedback:
+	move right hand to the right of the right-most object
+Command:
+	  command: move_abs: right_hand forward
+	  phrases: move right-hand forward
+	utterance: forward
+Feedback:
+	Cannot Move right hand forward.
+Command:
+	  command: move_abs: right_hand to_left
+	  phrases: move right-hand to-the-left
+	utterance: to-the-left
+Feedback:
+	Move right hand to the left.
+Command:
+	  command: close: right_hand
+	  phrases: close right-hand
+	utterance: close
+Feedback:
+	Close right hand.
+Command:
+	  command: move_abs: right_hand up
+	  phrases: move right-hand up
+	utterance: up
+Feedback:
+	Move right hand up.
+Command:
+	  command: move_abs: right_hand up
+	  phrases: move right-hand up
+	utterance: up
+Feedback:
+	Move right hand up.
+Command:
+	  command: open: right_hand
+	  phrases: open right-hand
+	utterance: open
+Feedback:
+	Open right hand.
+Command:
+	  command: execute: 
+	  phrases: execute
+	utterance: execute
+Feedback:
+	Executing action 1.
+Description:
+	thing 1:the left-most object
+	thing 0:the right-most object
+Feedback:
+	Found 2 objecs.
+Feedback:
+	pick up the right-most object with right hand
+Feedback:
+	Failed to pick up the right-most object with right hand
+Feedback:
+	Problem executing action 1.
+Command:
+	  command: execute: 
+	  phrases: execute
+	utterance: execute
+Feedback:
+	Executing action 1.
+Description:
+	thing 1:the left-most object
+	thing 0:the right-most object
+Feedback:
+	Found 2 objecs.
+Feedback:
+	pick up the right-most object with right hand
+Feedback:
+	move right hand above the left-most object
+Feedback:
+	Open right hand.
+Feedback:
+	move right hand to the right of the left-most object
+Feedback:
+	Move right hand to the left.
+Feedback:
+	Close right hand.
+Feedback:
+	Move right hand up.
+Feedback:
+	Move right hand up.
+Feedback:
+	Open right hand.
+Feedback:
+	Completed action 1.

@@ -1,0 +1,46 @@
+2014-09-27 21:52:33.856797
+Command:
+	  command: create_new_action: action
+	  phrases: create-new action
+	utterance: create-new action
+Feedback:
+	Created action 1. Finding objects.
+Description:
+Feedback:
+	Found 0 objecs.
+Command:
+	  command: create_new_action: action
+	  phrases: create-new action
+	utterance: create-new action
+Feedback:
+	Created action 2. Finding objects.
+Description:
+Feedback:
+	Found 0 objecs.
+Command:
+	  command: create_new_action: action
+	  phrases: create-new action
+	utterance: create-new action
+Feedback:
+	Created action 3. Finding objects.
+Description:
+Feedback:
+	Found 0 objecs.
+Command:
+	  command: create_new_action: action
+	  phrases: create-new action
+	utterance: create-new action
+Feedback:
+	Created action 4. Finding objects.
+Description:
+Feedback:
+	Found 0 objecs.
+Command:
+	  command: create_new_action: action
+	  phrases: create-new action
+	utterance: create-new action
+Feedback:
+	Created action 5. Finding objects.
+Description:
+Feedback:
+	Found 0 objecs.
