@@ -1,0 +1,70 @@
+2014-09-28 22:14:46.092776
+Command:
+	  command: record: 
+	  phrases: record
+	utterance: record
+Feedback:
+	Record.
+Description:
+	thing 0:the object
+Feedback:
+	Found 1 object.
+Command:
+	  command: move_rel: right_hand above thing 0
+	  phrases: move right-hand above thing 0
+	utterance: move right-hand above the thing
+Feedback:
+	move right hand above the object
+Command:
+	  command: create_new_action: action
+	  phrases: create-new action
+	utterance: create-new action
+----------------------------------------------------------------------
+Feedback:
+	Created action 1. Finding objects.
+Description:
+	thing 0:the object
+Feedback:
+	Found 1 object.
+Command:
+	  command: move_rel: right_hand to_right_of thing 0
+	  phrases: move right-hand to-the-right-of thing 0
+	utterance: move right-hand to-the-right-of the thing
+Feedback:
+	move right hand to the right of the object
+Command:
+	  command: move_abs: right_hand to_left
+	  phrases: move right-hand left
+	utterance: left
+Feedback:
+	Move right hand left.
+Command:
+	  command: move_rel: right_hand to_left_of thing 0
+	  phrases: move right-hand to-the-left-of thing 0
+	utterance: move right-hand to-the-left-of the object
+Feedback:
+	to the left of the object is not reachable with right hand .
+Command:
+	  command: move_rel: right_hand above thing 0
+	  phrases: move right-hand above thing 0
+	utterance: above
+Feedback:
+	move right hand above the object
+Command:
+	  command: execute: 
+	  phrases: execute
+	utterance: execute
+Feedback:
+	Executing action 1. Finding objects.
+Description:
+	thing 0:the object
+Feedback:
+	Found 1 object.
+Feedback:
+	move right hand to the right of the object
+Feedback:
+	Move right hand left.
+Feedback:
+	move right hand above the object
+Feedback:
+	Completed action 1.
