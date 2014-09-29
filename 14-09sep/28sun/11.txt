@@ -1,0 +1,20 @@
+2014-09-28 19:33:21.340638
+Command:
+	  command: move_abs_pos: left_hand to_side
+	  phrases: move left-arm to-the-side
+	utterance: move left-arm to-the-side
+Feedback:
+	Move left arm to the side.
+Command:
+	  command: move_abs_pos: right_hand to_side
+	  phrases: move right-arm to-the-side
+	utterance: move right-arm to-the-side
+Feedback:
+	Move right arm to the side.
+Command:
+	  command: create_new_action: action
+	  phrases: create-new action
+	utterance: create-new action
+----------------------------------------------------------------------
+Feedback:
+	Created action 1. Finding objects.
