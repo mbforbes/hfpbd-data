@@ -1,0 +1,157 @@
+2014-09-29 22:37:55.904387
+Command:
+	  command: create_new_action: action
+	  phrases: create-new action
+	utterance: create-new action
+----------------------------------------------------------------------
+Feedback:
+	Created action 1. Finding objects.
+Description:
+	thing 1:the left-most object
+	thing 0:the right-most object
+Feedback:
+	Found 2 objecs.
+Command:
+	  command: pick_up: thing 0 right_hand
+	  phrases: pick-up thing 0 right-hand
+	utterance: pick-up the right-most thing with right-hand
+Feedback:
+	pick up the right-most object with right hand
+Command:
+	  command: place: next_to thing 1 right_hand
+	  phrases: place next-to thing 1 right-hand
+	utterance: place next-to the left-most thing
+Feedback:
+	place next to the left-most object with right hand
+Command:
+	  command: move_abs_pos: right_hand to_side
+	  phrases: move right-hand to-the-side
+	utterance: move right-hand to-the-side
+Feedback:
+	Move right hand to the side.
+Command:
+	  command: create_new_action: action
+	  phrases: create-new action
+	utterance: create-new action
+----------------------------------------------------------------------
+Feedback:
+	Created action 2. Finding objects.
+Description:
+	thing 1:the left-most object
+	thing 0:the right-most object
+Feedback:
+	Found 2 objecs.
+Command:
+	  command: pick_up: thing 0 right_hand
+	  phrases: grab thing 0 right-hand
+	utterance: grab blue right-hand
+Feedback:
+	grab the right-most object with right hand
+Command:
+	  command: place: next_to thing 1 right_hand
+	  phrases: place next-to thing 1 right-hand
+	utterance: place next-to left-most
+Feedback:
+	place next to the left-most object with right hand
+Command:
+	  command: execute: 
+	  phrases: execute
+	utterance: execute
+Feedback:
+	Executing action 2. Finding objects.
+Description:
+	thing 1:the left-most object
+	thing 0:the right-most object
+Feedback:
+	Found 2 objecs.
+Feedback:
+	grab the right-most object with right hand
+Feedback:
+	place next to the left-most object with right hand
+Feedback:
+	Completed action 2.
+Command:
+	  command: create_new_action: action
+	  phrases: create-new action
+	utterance: create-new action
+----------------------------------------------------------------------
+Feedback:
+	Created action 3. Finding objects.
+Description:
+	thing 1:the left-most object
+	thing 0:the right-most object
+Feedback:
+	Found 2 objecs.
+Command:
+	  command: pick_up: thing 0 right_hand
+	  phrases: grab thing 0 right-hand
+	utterance: grab blue
+Feedback:
+	grab the right-most object with right hand
+Command:
+	  command: clarify: 
+	  phrases: 
+	utterance: move right-of left-most thing
+Feedback:
+	Please rephrase command.
+Command:
+	  command: move_rel: right_hand to_right_of thing 1
+	  phrases: move right-hand to-the-right-of thing 1
+	utterance: move to-the-right-of the left-most thing
+Feedback:
+	move right hand to the right of the left-most object
+Command:
+	  command: open: right_hand
+	  phrases: open right-hand
+	utterance: open
+Feedback:
+	Open right hand.
+Command:
+	  command: create_new_action: action
+	  phrases: create-new action
+	utterance: create-new action
+----------------------------------------------------------------------
+Feedback:
+	Created action 4. Finding objects.
+Description:
+	thing 1:the left-most object
+	thing 0:the right-most object
+Feedback:
+	Found 2 objecs.
+Command:
+	  command: pick_up: thing 1 left_hand
+	  phrases: grab thing 1 left-hand
+	utterance: grab left-most thing left-hand
+Feedback:
+	grab the left-most object with left hand
+Command:
+	  command: place: to_left_of thing 0 left_hand
+	  phrases: place to-the-left-of thing 0 left-hand
+	utterance: place to-the-left-of blue thing
+Feedback:
+	place to the left of the right-most object with left hand
+Command:
+	  command: move_abs: left_hand up
+	  phrases: move left-hand up
+	utterance: up
+Feedback:
+	Move left hand up.
+Command:
+	  command: execute: 
+	  phrases: execute
+	utterance: execute
+Feedback:
+	Executing action 4. Finding objects.
+Description:
+	thing 1:the left-most object
+	thing 0:the right-most object
+Feedback:
+	Found 2 objecs.
+Feedback:
+	grab the left-most object with left hand
+Feedback:
+	place to the left of the right-most object with left hand
+Feedback:
+	Move left hand up.
+Feedback:
+	Completed action 4.
