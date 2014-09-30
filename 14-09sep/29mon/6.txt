@@ -1,0 +1,125 @@
+2014-09-29 21:18:12.922062
+Command:
+	  command: create_new_action: action
+	  phrases: create-new action
+	utterance: create-new action
+----------------------------------------------------------------------
+Feedback:
+	Created action 1. Finding objects.
+Description:
+	thing 2:the right-most object
+	thing 1:the left-most object
+	thing 0:the farthest object
+Feedback:
+	Found 3 objecs.
+Command:
+	  command: move_rel: right_hand to_right_of thing 2
+	  phrases: move right-hand to-the-right-of thing 2
+	utterance: move right-hand to-the-right-of the right-most object
+Feedback:
+	move right hand to the right of the right-most object
+Command:
+	  command: move_rel: right_hand behind thing 2
+	  phrases: move right-hand behind thing 2
+	utterance: move right-hand behind the right-most thing
+Feedback:
+	move right hand behind the right-most object
+Command:
+	  command: move_rel: right_hand above thing 1
+	  phrases: move right-hand above thing 1
+	utterance: move above
+Feedback:
+	move right hand above the left-most object
+Command:
+	  command: move_rel: right_hand above thing 2
+	  phrases: move right-hand above thing 2
+	utterance: above right-most
+Feedback:
+	move right hand above the right-most object
+Command:
+	  command: record: 
+	  phrases: record
+	utterance: record
+Feedback:
+	Record.
+Description:
+	thing 3:the right-most object
+	thing 2:the object
+	thing 1:the object
+	thing 0:the farthest object
+Feedback:
+	Found 4 objecs.
+Command:
+	  command: move_rel: right_hand to_left_of thing 3
+	  phrases: move right-hand to-the-left-of thing 3
+	utterance: move right-hand to-the-left-of the right-most object
+Feedback:
+	move right hand to the left of the right-most object
+Command:
+	  command: clarify: obj
+	  phrases: 
+	utterance: in-front-of
+Feedback:
+	Please clarify obj
+Command:
+	  command: move_rel: right_hand in_front_of thing 3
+	  phrases: move right-hand in-front-of thing 3
+	utterance: move in-front-of right-most
+Feedback:
+	move right hand in front of the right-most object
+Command:
+	  command: clarify: obj
+	  phrases: 
+	utterance: above
+Feedback:
+	Please clarify obj
+Command:
+	  command: move_rel: right_hand above thing 3
+	  phrases: move right-hand above thing 3
+	utterance: above right-most
+Feedback:
+	move right hand above the right-most object
+Feedback:
+	Failed to move right hand above the right-most object
+Command:
+	  command: move_rel: right_hand on_top_of thing 3
+	  phrases: move right-hand on-top-of thing 3
+	utterance: move on-top-of right-most
+Feedback:
+	move right hand on top of the right-most object
+Command:
+	  command: move_rel: right_hand on_top_of thing 3
+	  phrases: move right-hand on-top-of thing 3
+	utterance: move on-top-of right-most
+Feedback:
+	move right hand on top of the right-most object
+Command:
+	  command: move_abs_pos: right_hand to_side
+	  phrases: move right-hand to-the-side
+	utterance: move right-hand to-the-side
+Feedback:
+	Move right hand to the side.
+Command:
+	  command: clarify: obj side
+	  phrases: 
+	utterance: move to-the-left-of the tallest object
+Feedback:
+	Please clarify obj andside
+Grounding:
+	query: tallest
+	thing 3: 0.25
+	thing 2: 0.25
+	thing 1: 0.25
+	thing 0: 0.25
+Command:
+	  command: record: 
+	  phrases: record
+	utterance: record
+Feedback:
+	Record.
+Description:
+	thing 2:the left-most object
+	thing 1:the right-most object
+	thing 0:the farthest object
+Feedback:
+	Found 3 objecs.
