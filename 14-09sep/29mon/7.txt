@@ -1,0 +1,387 @@
+2014-09-29 21:38:47.589048
+Command:
+	  command: create_new_action: action
+	  phrases: create-new action
+	utterance: create-new action
+----------------------------------------------------------------------
+Feedback:
+	Created action 1. Finding objects.
+Description:
+	thing 2:the right-most object
+	thing 1:the farthest object
+	thing 0:the left-most object
+Feedback:
+	Found 3 objecs.
+Command:
+	  command: create_new_action: action
+	  phrases: create-new action
+	utterance: create-new action
+----------------------------------------------------------------------
+Feedback:
+	Created action 2. Finding objects.
+Description:
+	thing 1:the left-most object
+	thing 0:the right-most object
+Feedback:
+	Found 2 objecs.
+Command:
+	  command: pick_up: thing 0 right_hand
+	  phrases: pick-up thing 0 right-hand
+	utterance: pick-up the red cup with your right-hand
+Feedback:
+	pick up the right-most object with right hand
+Command:
+	  command: create_new_action: action
+	  phrases: create-new action
+	utterance: create-new action
+----------------------------------------------------------------------
+Feedback:
+	Created action 3. Finding objects.
+Description:
+	thing 1:the right-most object
+	thing 0:the left-most object
+Feedback:
+	Found 2 objecs.
+Command:
+	  command: pick_up: thing 1 right_hand
+	  phrases: pick-up thing 1 right-hand
+	utterance: pick-up the red cup with your right-hand
+Feedback:
+	pick up the right-most object with right hand
+Command:
+	  command: place: above thing 0 right_hand
+	  phrases: place above thing 0 right-hand
+	utterance: place above the green thing
+Feedback:
+	place above the left-most object with right hand
+Command:
+	  command: create_new_action: action
+	  phrases: create-new action
+	utterance: create-new action
+----------------------------------------------------------------------
+Feedback:
+	Created action 4. Finding objects.
+Description:
+	thing 1:the left-most object
+	thing 0:the right-most object
+Feedback:
+	Found 2 objecs.
+Command:
+	  command: pick_up: thing 0 right_hand
+	  phrases: pick-up thing 0 right-hand
+	utterance: pick-up the red cup with your right-hand
+Feedback:
+	pick up the right-most object with right hand
+Command:
+	  command: place: above thing 1 right_hand
+	  phrases: place above thing 1 right-hand
+	utterance: place above the left-most thing
+Feedback:
+	place above the left-most object with right hand
+Command:
+	  command: execute: 
+	  phrases: execute
+	utterance: execute
+Feedback:
+	Executing action 4. Finding objects.
+Description:
+	thing 1:the right-most object
+	thing 0:the left-most object
+Feedback:
+	Found 2 objecs.
+Feedback:
+	pick up the right-most object with right hand
+Feedback:
+	place above the left-most object with right hand
+Feedback:
+	Completed action 4.
+Command:
+	  command: execute: 
+	  phrases: execute
+	utterance: execute
+Feedback:
+	Executing action 4. Finding objects.
+Description:
+	thing 1:the left-most object
+	thing 0:the right-most object
+Feedback:
+	Found 2 objecs.
+Feedback:
+	pick up the left-most object with right hand
+Feedback:
+	place above the right-most object with right hand
+Feedback:
+	Completed action 4.
+Command:
+	  command: execute: 
+	  phrases: execute
+	utterance: execute
+Feedback:
+	Executing action 4. Finding objects.
+Description:
+	thing 1:the nearest object
+	thing 0:the farthest object
+Feedback:
+	Found 2 objecs.
+Feedback:
+	pick up the nearest object with right hand
+Feedback:
+	Can't place as right hand is not holding an object.
+Command:
+	  command: execute: 
+	  phrases: execute
+	utterance: execute
+Feedback:
+	Executing action 4. Finding objects.
+Description:
+	thing 1:the nearest object
+	thing 0:the farthest object
+Feedback:
+	Found 2 objecs.
+Feedback:
+	pick up the nearest object with right hand
+Feedback:
+	Can't place as right hand is not holding an object.
+Command:
+	  command: execute: 
+	  phrases: execute
+	utterance: execute
+Feedback:
+	Executing action 4. Finding objects.
+Description:
+	thing 1:the nearest object
+	thing 0:the farthest object
+Feedback:
+	Found 2 objecs.
+Feedback:
+	pick up the nearest object with right hand
+Feedback:
+	Can't place as right hand is not holding an object.
+Command:
+	  command: execute: 
+	  phrases: execute
+	utterance: execute
+Feedback:
+	Executing action 4. Finding objects.
+Description:
+	thing 1:the nearest object
+	thing 0:the farthest object
+Feedback:
+	Found 2 objecs.
+Feedback:
+	pick up the nearest object with right hand
+Feedback:
+	Can't place as right hand is not holding an object.
+Command:
+	  command: execute: 
+	  phrases: execute
+	utterance: execute
+Feedback:
+	Executing action 4. Finding objects.
+Description:
+	thing 2:the object
+	thing 1:the nearest object
+	thing 0:the object
+Feedback:
+	Found 3 objecs.
+Feedback:
+	pick up the object with right hand
+Feedback:
+	Can't place as right hand is not holding an object.
+Command:
+	  command: execute: 
+	  phrases: execute
+	utterance: execute
+Feedback:
+	Executing action 4. Finding objects.
+Description:
+	thing 2:the object
+	thing 1:the left-most object
+	thing 0:the object
+Feedback:
+	Found 3 objecs.
+Feedback:
+	pick up the object with right hand
+Feedback:
+	place above the left-most object with right hand
+Feedback:
+	Completed action 4.
+Command:
+	  command: move_abs_pos: right_hand to_side
+	  phrases: move right-hand to-the-side
+	utterance: move right-hand to-the-side
+Feedback:
+	Move right hand to the side.
+Command:
+	  command: execute: 
+	  phrases: execute
+	utterance: execute
+Feedback:
+	Executing action 4. Finding objects.
+Description:
+	thing 2:the object
+	thing 1:the left-most object
+	thing 0:the object
+Feedback:
+	Found 3 objecs.
+Feedback:
+	pick up the object with right hand
+Feedback:
+	place above the left-most object with right hand
+Feedback:
+	Move right hand to the side.
+Feedback:
+	Completed action 4.
+Command:
+	  command: execute: 
+	  phrases: execute
+	utterance: execute
+Feedback:
+	Executing action 4. Finding objects.
+Description:
+	thing 2:the left-most object
+	thing 1:the green object
+	thing 0:the shortest object
+Feedback:
+	Found 3 objecs.
+Feedback:
+	pick up the left-most object with right hand
+Feedback:
+	place above the green object with right hand
+Feedback:
+	Move right hand to the side.
+Feedback:
+	Completed action 4.
+Command:
+	  command: execute: 
+	  phrases: execute
+	utterance: execute
+Feedback:
+	Executing action 4. Finding objects.
+Description:
+	thing 2:the right-most object
+	thing 1:the middle object
+	thing 0:the left-most object
+Feedback:
+	Found 3 objecs.
+Feedback:
+	pick up the right-most object with right hand
+Feedback:
+	Can't place as right hand is not holding an object.
+Command:
+	  command: execute: 
+	  phrases: execute
+	utterance: execute
+Feedback:
+	Executing action 4. Finding objects.
+Description:
+	thing 2:the middle object
+	thing 1:the left-most object
+	thing 0:the right-most object
+Feedback:
+	Found 3 objecs.
+Feedback:
+	pick up the right-most object with right hand
+Feedback:
+	above the middle object is not reachable with right hand .
+Command:
+	  command: execute: 
+	  phrases: execute
+	utterance: execute
+Feedback:
+	Executing action 4. Finding objects.
+Description:
+	thing 1:the left-most object
+	thing 0:the right-most object
+Feedback:
+	Found 2 objecs.
+Feedback:
+	pick up the left-most object with right hand
+Feedback:
+	above the left-most object is not reachable with right hand .
+Command:
+	  command: execute: 
+	  phrases: execute
+	utterance: execute
+Feedback:
+	Executing action 4. Finding objects.
+Description:
+	thing 3:the object
+	thing 2:the blue object
+	thing 1:the farthest object
+	thing 0:the left-most object
+	thing 5:the object
+	thing 4:the right-most object
+Feedback:
+	Found 6 objecs.
+Feedback:
+	pick up the object with right hand
+Feedback:
+	Failed to pick up the object with right hand
+Command:
+	  command: execute: 
+	  phrases: execute
+	utterance: execute
+Feedback:
+	Executing action 4. Finding objects.
+Description:
+	thing 3:the object
+	thing 2:the blue object
+	thing 1:the farthest object
+	thing 0:the left-most object
+	thing 5:the right-most object
+	thing 4:the object
+Feedback:
+	Found 6 objecs.
+Feedback:
+	pick up the object with right hand
+Feedback:
+	place above the right-most object with right hand
+Feedback:
+	Move right hand to the side.
+Feedback:
+	Completed action 4.
+Command:
+	  command: execute: 
+	  phrases: execute
+	utterance: execute
+Feedback:
+	Executing action 4. Finding objects.
+Description:
+	thing 3:the object
+	thing 2:the blue object
+	thing 1:the farthest object
+	thing 0:the left-most object
+	thing 5:the right-most object
+	thing 4:the object
+Feedback:
+	Found 6 objecs.
+Feedback:
+	pick up the object with right hand
+Feedback:
+	Can't place as right hand is not holding an object.
+Command:
+	  command: execute: 
+	  phrases: execute
+	utterance: execute
+Feedback:
+	Executing action 4. Finding objects.
+Description:
+	thing 3:the object
+	thing 2:the blue object
+	thing 1:the farthest object
+	thing 0:the left-most object
+	thing 5:the right-most object
+	thing 4:the object
+Feedback:
+	Found 6 objecs.
+Feedback:
+	pick up the object with right hand
+Feedback:
+	Can't place as right hand is not holding an object.
+Command:
+	  command: execute: 
+	  phrases: execute
+	utterance: execute
+Feedback:
+	Executing action 4. Finding objects.
