@@ -1,0 +1,260 @@
+2014-09-29 20:38:54.808357
+Command:
+	  command: create_new_action: action
+	  phrases: create-new action
+	utterance: create-new action
+----------------------------------------------------------------------
+Feedback:
+	Created action 1. Finding objects.
+Description:
+	thing 3:the left-most object
+	thing 2:the right-most object
+	thing 1:the nearest object
+	thing 0:the farthest object
+Feedback:
+	Found 4 objecs.
+Grounding:
+	query: biggest
+	thing 3: 0.166666666667
+	thing 2: 0.166666666667
+	thing 1: 0.166666666667
+	thing 0: 0.5
+Grounding:
+	query: smallest
+	thing 3: 0.25
+	thing 2: 0.25
+	thing 1: 0.25
+	thing 0: 0.25
+Grounding:
+	query: tallest
+	thing 3: 0.166666666667
+	thing 2: 0.166666666667
+	thing 1: 0.166666666667
+	thing 0: 0.5
+Grounding:
+	query: shortest
+	thing 3: 0.5
+	thing 2: 0.166666666667
+	thing 1: 0.166666666667
+	thing 0: 0.166666666667
+Command:
+	  command: record: 
+	  phrases: record
+	utterance: record
+Feedback:
+	Record.
+Description:
+	thing 3:the nearest object
+	thing 2:the shortest object
+	thing 1:the object
+	thing 0:the farthest object
+Feedback:
+	Found 4 objecs.
+Grounding:
+	query: biggest
+	thing 3: 0.25
+	thing 2: 0.25
+	thing 1: 0.25
+	thing 0: 0.25
+Grounding:
+	query: tallest
+	thing 3: 0.25
+	thing 2: 0.25
+	thing 1: 0.25
+	thing 0: 0.25
+Command:
+	  command: record: 
+	  phrases: record
+	utterance: record
+Feedback:
+	Record.
+Description:
+	thing 3:the object
+	thing 2:the object
+	thing 1:the left-most object
+	thing 0:the object
+	thing 4:the farthest object
+Feedback:
+	Found 5 objecs.
+Command:
+	  command: record: 
+	  phrases: record
+	utterance: record
+Feedback:
+	Record.
+Description:
+	thing 3:the object
+	thing 2:the object
+	thing 1:the right-most object
+	thing 0:the biggest object
+	thing 4:the object
+Feedback:
+	Found 5 objecs.
+Command:
+	  command: record: 
+	  phrases: record
+	utterance: record
+Feedback:
+	Record.
+Description:
+	thing 2:the right-most object
+	thing 1:the nearest object
+	thing 0:the left-most object
+Feedback:
+	Found 3 objecs.
+Grounding:
+	query: smallest
+	thing 2: 0.333333333333
+	thing 1: 0.333333333333
+	thing 0: 0.333333333333
+Grounding:
+	query: shortest
+	thing 2: 0.333333333333
+	thing 1: 0.333333333333
+	thing 0: 0.333333333333
+Grounding:
+	query: biggest
+	thing 2: 0.2
+	thing 1: 0.2
+	thing 0: 0.6
+Grounding:
+	query: tallest
+	thing 2: 0.2
+	thing 1: 0.2
+	thing 0: 0.6
+Grounding:
+	query: blue
+	thing 2: 0.2
+	thing 1: 0.6
+	thing 0: 0.2
+Command:
+	  command: record: 
+	  phrases: record
+	utterance: record
+Feedback:
+	Record.
+Description:
+	thing 1:the right-most object
+	thing 0:the left-most object
+Feedback:
+	Found 2 objecs.
+Command:
+	  command: record: 
+	  phrases: record
+	utterance: record
+Feedback:
+	Record.
+Description:
+	thing 1:the right-most object
+	thing 0:the left-most object
+Feedback:
+	Found 2 objecs.
+Grounding:
+	query: smallest
+	thing 1: 0.75
+	thing 0: 0.25
+Command:
+	  command: record: 
+	  phrases: record
+	utterance: record
+Feedback:
+	Record.
+Description:
+	thing 1:the right-most object
+	thing 0:the left-most object
+Feedback:
+	Found 2 objecs.
+Grounding:
+	query: red
+	thing 1: 0.5
+	thing 0: 0.5
+Grounding:
+	query: smallest
+	thing 1: 0.75
+	thing 0: 0.25
+Grounding:
+	query: shortest
+	thing 1: 0.5
+	thing 0: 0.5
+Grounding:
+	query: shortest
+	thing 1: 0.5
+	thing 0: 0.5
+Grounding:
+	query: biggest
+	thing 1: 0.25
+	thing 0: 0.75
+Command:
+	  command: record: 
+	  phrases: record
+	utterance: record
+Feedback:
+	Record.
+Description:
+	thing 3:the farthest object
+	thing 2:the object
+	thing 1:the tallest object
+	thing 0:the biggest object
+Feedback:
+	Found 4 objecs.
+Grounding:
+	query: shortest
+	thing 3: 0.25
+	thing 2: 0.25
+	thing 1: 0.25
+	thing 0: 0.25
+Grounding:
+	query: red
+	thing 3: 0.125
+	thing 2: 0.375
+	thing 1: 0.375
+	thing 0: 0.125
+Command:
+	  command: record: 
+	  phrases: record
+	utterance: record
+Feedback:
+	Record.
+Description:
+	thing 3:the tallest object
+	thing 2:the right-most object
+	thing 1:the object
+	thing 0:the farthest object
+Feedback:
+	Found 4 objecs.
+Grounding:
+	query: tallest
+	thing 3: 0.5
+	thing 2: 0.166666666667
+	thing 1: 0.166666666667
+	thing 0: 0.166666666667
+Grounding:
+	query: farthest
+	thing 3: 0.166666666667
+	thing 2: 0.166666666667
+	thing 1: 0.166666666667
+	thing 0: 0.5
+Grounding:
+	query: biggest
+	thing 3: 0.25
+	thing 2: 0.25
+	thing 1: 0.25
+	thing 0: 0.25
+Grounding:
+	query: biggest
+	thing 3: 0.25
+	thing 2: 0.25
+	thing 1: 0.25
+	thing 0: 0.25
+Grounding:
+	query: right-most
+	thing 3: 0.166666666667
+	thing 2: 0.5
+	thing 1: 0.166666666667
+	thing 0: 0.166666666667
+Grounding:
+	query: left-most
+	thing 3: 0.25
+	thing 2: 0.25
+	thing 1: 0.25
+	thing 0: 0.25
