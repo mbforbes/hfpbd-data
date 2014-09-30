@@ -1,0 +1,136 @@
+2014-09-29 23:44:12.870965
+Command:
+	  command: create_new_action: action
+	  phrases: create-new action
+	utterance: create-new action
+----------------------------------------------------------------------
+Feedback:
+	Created action 1. Finding objects.
+Description:
+	thing 0:the object
+Feedback:
+	Found 1 object.
+Command:
+	  command: move_rel: left_hand on_top_of thing 0
+	  phrases: move left-hand on-top-of thing 0
+	utterance: move left-hand on-top-of the object
+Feedback:
+	move left hand on top of the object
+Command:
+	  command: move_abs: left_hand down
+	  phrases: move left-hand down
+	utterance: move left-hand down
+Feedback:
+	Move left hand down.
+Command:
+	  command: move_abs: left_hand to_right
+	  phrases: move left-hand right
+	utterance: move left-hand right
+Feedback:
+	Move left hand right.
+Command:
+	  command: move_abs: left_hand to_right
+	  phrases: move left-hand right
+	utterance: move left-hand right
+Feedback:
+	Move left hand right.
+Command:
+	  command: move_abs: left_hand up
+	  phrases: move left-hand up
+	utterance: move left-hand up
+Feedback:
+	Move left hand up.
+Command:
+	  command: record: 
+	  phrases: record
+	utterance: record
+Feedback:
+	Record.
+Description:
+	thing 0:the object
+Feedback:
+	Found 1 object.
+Command:
+	  command: move_rel: right_hand to_right_of thing 0
+	  phrases: move right-hand to-the-right-of thing 0
+	utterance: move right-hand to-the-right-of the object
+Feedback:
+	move right hand to the right of the object
+Command:
+	  command: rotate: right_hand cw
+	  phrases: rotate right-hand clockwise
+	utterance: rotate right-hand clockwise
+Feedback:
+	Rotate right hand clockwise.
+Command:
+	  command: move_abs: right_hand to_left
+	  phrases: move right-hand left
+	utterance: move right-hand left
+Feedback:
+	Move right hand left.
+Command:
+	  command: close: right_hand
+	  phrases: close right-hand
+	utterance: close right-hand
+Feedback:
+	Close right hand.
+Command:
+	  command: move_abs: right_hand up
+	  phrases: move right-hand up
+	utterance: move right-hand up
+Feedback:
+	Move right hand up.
+Command:
+	  command: move_abs: right_hand down
+	  phrases: move right-hand down
+	utterance: move right-hand down
+Feedback:
+	Move right hand down.
+Command:
+	  command: open: right_hand
+	  phrases: open right-hand
+	utterance: open right-hand
+Feedback:
+	Open right hand.
+Command:
+	  command: execute: 
+	  phrases: execute
+	utterance: execute
+Feedback:
+	Executing action 1. Finding objects.
+Description:
+	thing 0:the object
+Feedback:
+	Found 1 object.
+Feedback:
+	move left hand on top of the object
+Feedback:
+	Move left hand down.
+Feedback:
+	Move left hand right.
+Feedback:
+	Move left hand right.
+Feedback:
+	Move left hand up.
+Feedback:
+	Record.
+Description:
+	thing 0:the object
+Feedback:
+	Found 1 object.
+Feedback:
+	move right hand to the right of the object
+Feedback:
+	Rotate right hand clockwise.
+Feedback:
+	Move right hand left.
+Feedback:
+	Close right hand.
+Feedback:
+	Move right hand up.
+Feedback:
+	Move right hand down.
+Feedback:
+	Open right hand.
+Feedback:
+	Completed action 1.
