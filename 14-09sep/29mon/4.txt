@@ -1,0 +1,98 @@
+2014-09-29 20:00:42.596154
+Command:
+	  command: create_new_action: action
+	  phrases: create-new action
+	utterance: create-new action
+----------------------------------------------------------------------
+Feedback:
+	Created action 1. Finding objects.
+Description:
+	thing 2:the green object
+	thing 1:the left-most object
+	thing 0:the farthest object
+Feedback:
+	Found 3 objecs.
+Grounding:
+	query: blue thing
+	thing 2: 0.2
+	thing 1: 0.2
+	thing 0: 0.6
+Grounding:
+	query: red thing
+	thing 2: 0.2
+	thing 1: 0.6
+	thing 0: 0.2
+Grounding:
+	query: green thing
+	thing 2: 0.6
+	thing 1: 0.2
+	thing 0: 0.2
+Grounding:
+	query: nearest thing
+	thing 2: 0.333333333333
+	thing 1: 0.333333333333
+	thing 0: 0.333333333333
+Grounding:
+	query: farthest thing
+	thing 2: 0.2
+	thing 1: 0.2
+	thing 0: 0.6
+Grounding:
+	query: closest
+	thing 2: 0.333333333333
+	thing 1: 0.333333333333
+	thing 0: 0.333333333333
+Grounding:
+	query: right-most
+	thing 2: 0.333333333333
+	thing 1: 0.333333333333
+	thing 0: 0.333333333333
+Command:
+	  command: record: 
+	  phrases: record
+	utterance: record
+Feedback:
+	Record.
+Description:
+	thing 2:the left-most object
+	thing 1:the farthest object
+	thing 0:the right-most object
+Feedback:
+	Found 3 objecs.
+Command:
+	  command: record: 
+	  phrases: record
+	utterance: record
+Feedback:
+	Record.
+Description:
+	thing 2:the left-most object
+	thing 1:the farthest object
+	thing 0:the right-most object
+Feedback:
+	Found 3 objecs.
+Grounding:
+	query: green
+	thing 2: 0.6
+	thing 1: 0.2
+	thing 0: 0.2
+Grounding:
+	query: red
+	thing 2: 0.2
+	thing 1: 0.6
+	thing 0: 0.2
+Grounding:
+	query: left-most
+	thing 2: 0.6
+	thing 1: 0.2
+	thing 0: 0.2
+Grounding:
+	query: farthest
+	thing 2: 0.2
+	thing 1: 0.6
+	thing 0: 0.2
+Grounding:
+	query: nearest
+	thing 2: 0.333333333333
+	thing 1: 0.333333333333
+	thing 0: 0.333333333333

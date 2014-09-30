@@ -1,0 +1,59 @@
+2014-09-29 19:36:06.314828
+Command:
+	  command: create_new_action: action
+	  phrases: create-new action
+	utterance: create-new action
+----------------------------------------------------------------------
+Feedback:
+	Created action 1. Finding objects.
+Description:
+	thing 3:the object
+	thing 2:the object
+	thing 1:the right-most object
+	thing 0:the left-most object
+Feedback:
+	Found 4 objecs.
+Command:
+	  command: record: 
+	  phrases: record
+	utterance: record
+Feedback:
+	Record.
+Description:
+	thing 2:the middle object
+	thing 1:the right-most object
+	thing 0:the left-most object
+Feedback:
+	Found 3 objecs.
+Command:
+	  command: clarify: 
+	  phrases: 
+	utterance: the red thing
+Feedback:
+	Please rephrase command.
+Grounding:
+	query: the red thing
+	thing 2: 0.6
+	thing 1: 0.2
+	thing 0: 0.2
+Grounding:
+	query: the green object
+	thing 2: 0.2
+	thing 1: 0.6
+	thing 0: 0.2
+Command:
+	  command: clarify: 
+	  phrases: 
+	utterance: the right-most thing
+Feedback:
+	Please rephrase command.
+Grounding:
+	query: the right-most thing
+	thing 2: 0.2
+	thing 1: 0.6
+	thing 0: 0.2
+Grounding:
+	query: the nearest thing
+	thing 2: 0.333333333333
+	thing 1: 0.333333333333
+	thing 0: 0.333333333333
