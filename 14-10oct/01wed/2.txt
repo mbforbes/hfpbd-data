@@ -1,0 +1,42 @@
+2014-10-01 01:38:11.987928
+Command:
+	  command: clarify: 
+	  phrases: 
+	utterance: the
+Feedback:
+	Please rephrase command.
+Command:
+	  command: create_new_action: action
+	  phrases: create-new action
+	utterance: create-new action
+----------------------------------------------------------------------
+Feedback:
+	Created action 1. Finding objects.
+Description:
+	thing 0:the object
+Feedback:
+	Found 1 object.
+Command:
+	  command: clarify: side
+	  phrases: 
+	utterance: the up
+Feedback:
+	Please clarify side
+Command:
+	  command: clarify: 
+	  phrases: 
+	utterance: the
+Feedback:
+	Please rephrase command.
+Command:
+	  command: clarify: 
+	  phrases: 
+	utterance: the
+Feedback:
+	Please rephrase command.
+Command:
+	  command: clarify: 
+	  phrases: 
+	utterance: the
+Feedback:
+	Please rephrase command.
